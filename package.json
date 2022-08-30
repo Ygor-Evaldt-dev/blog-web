@@ -9,5 +9,22 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "name": "blog-web",
+  "description": "Repostório de armazenamento de um blog feito com Html, Css, JavaScript e Node.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ygor-Evaldt-dev/blog-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ygor-Evaldt-dev/blog-web/issues"
+  },
+  "homepage": "https://github.com/Ygor-Evaldt-dev/blog-web#readme"
 }
