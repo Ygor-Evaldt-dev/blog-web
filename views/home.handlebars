@@ -1,16 +1,13 @@
-<header>
-  <h1>
-    Dev-Blog
-  </h1>
+<header class="container-fluid m-2 mb-4">
+  <h1>Lista de posts: </h1>
 </header>
-<main>
-  <h2>Postagens</h2>
-  <dl>
-    {{#each}}
-    <dt>{{title}}</dt>
-    <dd>{{content}}</dd>
-    <hr class="mb-2">
+
+<main class="container-fluid m-2">
+  <dl class="col-6">
+    {{#each posts}}
+      <dt>{{title}}</dt>
+      <dd>{{content}}</dd>
+      <hr class="mb-2">
     {{/each}}
   </dl>
-  
 </main>
