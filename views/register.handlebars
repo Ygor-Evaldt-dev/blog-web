@@ -1,0 +1,22 @@
+<main class="container-fluid p-4">
+  <section>
+    <h1>
+      Registrar nova postagem
+    </h1>
+  </section>
+  <form class="col-md-6" action="/registered" method="POST">
+    <fieldset class="border-none">
+      <div class="pt-3">
+        <label for="title">Título: </label>
+        <input class="form-control" type="text" name="title" required>
+      </div>
+      <div class="pt-3">
+        <label for="content">Conteúdo: </label>
+        <textarea class="form-control" name="content" cols="30" rows="10" required></textarea>
+      </div>
+      <div class="pt-3 text-end">
+        <button class="btn btn-primary" type="submit">Registrar postagem</button>
+      </div>
+    </fieldset>
+  </form>
+</main>

@@ -1,0 +1,16 @@
+
+
+
+<main class="container-fluid p-4">
+  <h1>Lista de posts: </h1>
+  <dl class="mt-4">
+    {{#each posts}}
+      <dt>{{title}}</dt>
+      <dd class="d-flex justify-content-between">
+        {{content}} 
+        <a href="delete/{{id}}"><button class="btn btn-sm btn-danger">Deletar</button></a>
+      </dd>
+      <hr class="mb-2">
+    {{/each}}
+  </dl>
+</main>

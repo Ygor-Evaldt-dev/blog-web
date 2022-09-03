@@ -1,30 +1,13 @@
 {
   "dependencies": {
-    "bootstrap": "^5.2.0",
+    "body-parser": "^1.20.0",
     "express": "^4.18.1",
     "express-handlebars": "^6.0.6",
-    "handlebars": "^4.7.7",
+    "mdb-ui-kit": "^4.4.0",
     "mysql2": "^2.3.3",
     "sequelize": "^6.21.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  },
-  "name": "blog-web",
-  "description": "Repostório de armazenamento de um blog feito com Html, Css, JavaScript e Node.js",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ygor-Evaldt-dev/blog-web.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ygor-Evaldt-dev/blog-web/issues"
-  },
-  "homepage": "https://github.com/Ygor-Evaldt-dev/blog-web#readme"
+  }
 }
