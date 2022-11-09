@@ -1,10 +1,10 @@
 # blog-web
 - Aplicação web para cadastro de postagens simulando um blog
 
-##Objetivo:
+## Objetivo:
 - Consolidar conhecimentos adquiridos com Node.js
 
-##Tecnologias utilizadas:
+## Tecnologias utilizadas:
 - HTML;
 - CSS;
 - JavaScript;
@@ -14,7 +14,7 @@
 - MySql;
 - SQL;
 
-##Como visualizar funcionamento: 
+## Como visualizar funcionamento: 
 - Para poder visualizar está aplicação funcionando no seu computador você precisa ter o Node e MySql server instalados;
 - Download Node.js: https://nodejs.org/en/download/ (recomendado versão LTS);
 - Download MySql Server: https://dev.mysql.com/downloads/;
